@@ -1,0 +1,36 @@
+.dropdown-menu {
+    background-color: rgb(17,17,17);
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+}
+
+.dropdown-menu li {
+    background-color: rgb(17,17,17);
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: rgb(51,51,51);
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+
+@media screen and (max-width: 950px) {
+    .fa-caret-down {
+        display: none;
+    }
+}
